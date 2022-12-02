@@ -1,0 +1,4 @@
+graph LR
+A[O IPI não integra a BC do ICMS se] --> B[a operação for entre dois contribuintes]
+A --> C[destinado à mercantilização]
+A --> D[fato gerador dos dois impostos]
