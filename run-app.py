@@ -1,6 +1,5 @@
 from pathlib import Path
 
-
 APPS_PATH = Path('my-dir-path')
 
 
@@ -23,7 +22,7 @@ def path_to_smodule(path):
 def main():
     option = 1
     option_path_map = {}
-    for item in sorted(conf.APPS.iterdir()):
+    for item in sorted(APPS_PATH.iterdir()):
         if item.is_dir():
             # print(item.name)
             for subitem in sorted(item.iterdir()):
