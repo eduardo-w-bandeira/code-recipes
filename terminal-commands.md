@@ -1,0 +1,1 @@
+- Pull changes from the main into the current branch: `git pull origin main`.
